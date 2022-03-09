@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/Users/sim-hank/Documents/datahub/datahub-web-auto/test_case/test_job_add_case.py", line 84, in test_add_rds_extract
+    self.page.res_select.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/poium/page_objects.py", line 234, in click
+    elem = self.__get_element(self.k, self.v)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/poium/page_objects.py", line 156, in __get_element
+    self.__find_element((By.XPATH, value))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/poium/page_objects.py", line 129, in __find_element
+    raise NoSuchElementException(error_msg)
+selenium.common.exceptions.NoSuchElementException: Message: ❌ Find 0 elements through: xpath=//input[@placeholder="请选择资源连接"]
+
+
+没有找到元素
+Traceback (most recent call last):
+  File "/Users/sim-hank/Documents/datahub/datahub-web-auto/test_case/test_job_add_case.py", line 84, in test_add_rds_extract
+    self.page.res_select.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/poium/page_objects.py", line 234, in click
+    elem = self.__get_element(self.k, self.v)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/poium/page_objects.py", line 156, in __get_element
+    self.__find_element((By.XPATH, value))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/poium/page_objects.py", line 129, in __find_element
+    raise NoSuchElementException(error_msg)
+selenium.common.exceptions.NoSuchElementException: Message: ❌ Find 0 elements through: xpath=//input[@placeholder="请选择资源连接"]
+
